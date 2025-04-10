@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester savviour</title>
+    <link rel="stylesheet" href="Stylenewcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e9edc732b0.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="new.html"><img src="logo2.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="new.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="#">B.C.A SYLLABUS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">SEMESTERS NOTES
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+
+                            <a href="sem1.html">SEMESTERS 1</a>
+                            <a href="sem2.html">SEMESTERS 2</a>
+                            <a href="sem3.html">SEMESTERS 3</a>
+                            <a href="sem4.html">SEMESTERS 4</a>
+                            <a href="sem5.html">SEMESTERS 5</a>
+                            <a href="sem6.html">SEMESTERS 6</a>
+
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!---about us content-->
+    <section class="about-us">
+        <div class="row">
+            <img src="about.jpg" alt="about img">
+            <div class="about-col">
+                <h1>SEMESTERS SAVIOUR</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut obcaecati vitae officia iusto
+                    perferendis optio delectus repellendus dolores. Veniam temporibus vel, ex delectus itaque ipsum,
+                    quisquam adipisci, similique porro consectetur officia facere deleniti nobis maxime quibusdam neque
+                    ab iusto commodi maiores consequatur eaque? Commodi enim, ducimus doloribus suscipit reprehenderit
+                    dolor! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure exercitationem dolorem possimus ipsa minus. Cum sint eaque a alias architecto iste fugiat est distinctio. Voluptate odio ipsa nisi velit deleniti totam facere at aliquam, explicabo mollitia, recusandae, quas voluptates consectetur. Autem, itaque amet! Iure neque provident atque vel sapiente sunt?</P>
+                    <a href="" class="hero-btn red-btn"> EXPLORE NOW</a>
+                    </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Soluta error iste praesentium sapiente atque
+            eaque iusto blanditiis, <br> numquam dolorem eum aspernatur nostrum tempora maiores labore. Sapiente, ut?
+            Necessitatibus, doloremque ut?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> </i>by Nilesh singh</p>
+    </section>
+
+    <!--javaScript for toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

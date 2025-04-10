@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester savviour</title>
+    <link rel="stylesheet" href="Stylenewcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/e9edc732b0.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="new.html"><img src="logo2.png" alt="logo" id="logoimg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="new.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="#">B.C.A SYLLABUS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">SEMESTERS NOTES
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+
+                            <a href="sem1.html">SEMESTERS 1</a>
+                            <a href="sem2.html">SEMESTERS 2</a>
+                            <a href="sem3.html">SEMESTERS 3</a>
+                            <a href="sem4.html">SEMESTERS 4</a>
+                            <a href="sem5.html">SEMESTERS 5</a>
+                            <a href="sem6.html">SEMESTERS 6</a>
+
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h2>Best Career Option after BCA</h2>
+            <p>Let us explore the best career options after BCA in both the private and public sectors along with their scope, <br>earning potential and future career prospects </p>
+            <a href="https://www.vbu.ac.in/login" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <!-- contact us -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Soluta error iste praesentium sapiente atque eaque iusto blanditiis, <br> numquam dolorem eum aspernatur nostrum tempora maiores labore. Sapiente, ut? Necessitatibus, doloremque ut?</p>
+        <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> </i>by Nilesh singh</p>
+    </section>
+    
+    <!--javaScript for toggle Menu -->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+
+</html>
